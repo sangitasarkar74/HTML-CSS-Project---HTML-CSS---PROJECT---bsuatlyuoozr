@@ -14,7 +14,7 @@ const moveFocusToNextInput = (eventOriginationInputNumber) => {
     inputs[eventOriginationInputNumber + 1].focus();
 };
 
-const moveFocusToPreviuosInput = (eventOriginationInputNumber) => {
+const moveFocusToPreviousInput = (eventOriginationInputNumber) => {
     if (eventOriginationInputNumber === 0) {
         return;
     }
